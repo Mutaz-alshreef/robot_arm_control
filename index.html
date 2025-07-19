@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Robot Arm Control Panel</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h2>Robot Arm Control Panel</h2>
+    <div id="sliders">
+        <div>
+            Motor 1: <input type="range" min="0" max="180" value="90" id="motor1"> <span id="val1">90</span><br>
+            Motor 2: <input type="range" min="0" max="180" value="90" id="motor2"> <span id="val2">90</span><br>
+            Motor 3: <input type="range" min="0" max="180" value="90" id="motor3"> <span id="val3">90</span><br>
+            Motor 4: <input type="range" min="0" max="180" value="90" id="motor4"> <span id="val4">90</span><br>
+            Motor 5: <input type="range" min="0" max="180" value="90" id="motor5"> <span id="val5">90</span><br>
+            Motor 6: <input type="range" min="0" max="180" value="90" id="motor6"> <span id="val6">90</span><br>
+        </div>
+        <button onclick="resetSliders()">Reset</button>
+        <button onclick="savePose()">Save Pose</button>
+        <button onclick="runPose()">Run</button>
+    </div>
+
+    <div id="posesTable">
+        <?php include 'get_run_pose.php'; ?>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
