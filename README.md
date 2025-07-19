@@ -70,8 +70,19 @@ robot_arm_control/
 ├── style.css
 └── js/
     └── main.js
-    
+
 ---
+## Result
+<img width="1892" height="811" alt="لقطة شاشة 2025-07-19 192435" src="https://github.com/user-attachments/assets/a8ada121-7443-43ef-a8ae-415f1b86ee43" />
+
+---
+<img width="1891" height="878" alt="لقطة شاشة 2025-07-19 192454" src="https://github.com/user-attachments/assets/4d9e2220-325c-4f9d-8fbc-eaa48bed22dc" />
+
+---
+<img width="1897" height="949" alt="لقطة شاشة 2025-07-19 192511" src="https://github.com/user-attachments/assets/cb005434-7d21-4272-96f7-5b4211d1d8f2" />
+
+---
+
 ## 👨‍💻 Usage
 
 Open the control page in your browser.
